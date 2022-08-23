@@ -63,12 +63,12 @@ Thresholding is a technique in OpenCV, which is the assignment of pixel values i
 Source Code <br>
 https://github.com/niyasmt/Tarsyer/blob/main/Tresholding.py
 
-#People Counting 
+# People Counting 
 <br>
 # CSRNET Model
 for Congested Scene Recognition called CSRNet to provide a data-driven and deep learning method that can understand highly congested scenes and perform accurate count estimation as well as present high-quality density maps. The proposed CSRNet is composed of two major components: a convolutional neural network (CNN) as the front-end for 2D feature extraction and a dilated CNN for the back-end. Trained with shanghai dataset<br>
 
-#SSD
+# SSD
 Single Shot MultiBox Detector <br>
 Trained with coco dataset <br>
 SSD is a state-of-the-art object detection algorithm that achieves similar or even higher accuracy than Faster R-CNN.
@@ -76,7 +76,7 @@ SSD is a state-of-the-art object detection algorithm that achieves similar or ev
 Source code <br>
 https://github.com/niyasmt/Tarsyer-test/blob/master/people%20counting%20using%20ssd.ipynb
 
-#YOLOv5
+# YOLOv5
 You Only Look Once <br>
 Trained with coco128 dataset <br>
 This approach uses a single neural network to process the entire picture, then separates it into parts and predicts bounding boxes and probabilities for each component. These bounding boxes are weighted by the expected probability. The method “just looks once” at the image in the sense that it makes predictions after only one forward propagation run through the neural network. It then delivers detected items after non-max suppression. <br>
