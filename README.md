@@ -62,3 +62,50 @@ https://github.com/niyasmt/Tarsyer/blob/main/Morphological_trasformation.py <br>
 Thresholding is a technique in OpenCV, which is the assignment of pixel values in relation to the threshold value provided. In thresholding, each pixel value is compared with the threshold value. If the pixel value is smaller than the threshold, it is set to 0, otherwise, it is set to a maximum value (generally 255). Thresholding is a very popular segmentation technique, used for separating an object considered as a foreground from its background <br>
 Source Code <br>
 https://github.com/niyasmt/Tarsyer/blob/main/Tresholding.py
+
+#People Counting 
+<br>
+# CSRNET Model
+for Congested Scene Recognition called CSRNet to provide a data-driven and deep learning method that can understand highly congested scenes and perform accurate count estimation as well as present high-quality density maps. The proposed CSRNet is composed of two major components: a convolutional neural network (CNN) as the front-end for 2D feature extraction and a dilated CNN for the back-end. Trained with shanghai dataset<br>
+
+#SSD
+Single Shot MultiBox Detector <br>
+Trained with coco dataset <br>
+SSD is a state-of-the-art object detection algorithm that achieves similar or even higher accuracy than Faster R-CNN.
+<br>
+Source code <br>
+https://github.com/niyasmt/Tarsyer-test/blob/master/people%20counting%20using%20ssd.ipynb
+
+#YOLOv5
+You Only Look Once <br>
+Trained with coco128 dataset <br>
+This approach uses a single neural network to process the entire picture, then separates it into parts and predicts bounding boxes and probabilities for each component. These bounding boxes are weighted by the expected probability. The method “just looks once” at the image in the sense that it makes predictions after only one forward propagation run through the neural network. It then delivers detected items after non-max suppression. <br>
+
+Source Code<br>
+https://github.com/niyasmt/Tarsyer-test/blob/master/People%20counting%20using%20yolov5.ipynb
+
+# Comparison of Three Model
+Add a picture that include 9 people<br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/crowd.jpg" width = "700" hight = "500"/> <br>
+Output<br>
+
+CSRNET  : 27 people
+SSD     : 7 people
+YOLOv5  : 16 People
+
+Add a picture that include 50 people<br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/50.jpg" width = "700" hight = "500"/> <br>
+Output<br>
+
+CSRNET  : 47 people
+SSD     : 11 people
+YOLOv5  : 31 People
+
+
+# Conclusion
+More congested images CRNET is work very good <br>
+Small Crowd images SSD is work very good <br>
+
+
+
+
