@@ -64,7 +64,6 @@ Source Code <br>
 https://github.com/niyasmt/Tarsyer/blob/main/Tresholding.py
 
 # People Counting 
-<br>
 # CSRNET Model
 for Congested Scene Recognition called CSRNet to provide a data-driven and deep learning method that can understand highly congested scenes and perform accurate count estimation as well as present high-quality density maps. The proposed CSRNet is composed of two major components: a convolutional neural network (CNN) as the front-end for 2D feature extraction and a dilated CNN for the back-end. Trained with shanghai dataset<br>
 
@@ -89,17 +88,17 @@ Add a picture that include 9 people<br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/crowd.jpg" width = "700" hight = "500"/> <br>
 Output<br>
 
-CSRNET  : 27 people
-SSD     : 7 people
-YOLOv5  : 16 People
+CSRNET  : 27 people<br>
+SSD     : 7 people<br>
+YOLOv5  : 16 People<br>
 
 Add a picture that include 50 people<br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/50.jpg" width = "700" hight = "500"/> <br>
 Output<br>
 
-CSRNET  : 47 people
-SSD     : 11 people
-YOLOv5  : 31 People
+CSRNET  : 47 people<br>
+SSD     : 11 people<br>
+YOLOv5  : 31 People<br>
 
 
 # Conclusion
