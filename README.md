@@ -238,6 +238,8 @@ Try defferent 20 images <br><br>
 <td> 16 </td>
 <td> 75 </td>
 </tr>
+</table>
+
 # Conclusion
 More congested images CRNET is work very good <br>
 Small Crowd images SSD is work very good <br>
