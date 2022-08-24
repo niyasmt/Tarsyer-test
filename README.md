@@ -90,7 +90,7 @@ Output<br>
 
 CSRNET  : 27 people<br>
 SSD     : 7 people<br><br>
-<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/download%20(1).png" width = "700" hight = "500"/> <br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/ssd%20small.png" width = "700" hight = "500"/> <br>
 YOLOv5  : 16 People<br><br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/yolo%20small.jpg" width = "700" hight = "500"/> <br>
 
@@ -100,7 +100,7 @@ Output<br>
 
 CSRNET  : 47 people<br>
 SSD     : 11 people<br><br>
-<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/download.png" width = "700" hight = "500"/> <br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/ssd%20crowd.png" width = "700" hight = "500"/> <br>
 YOLOv5  : 31 People<br><br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/Yolo%20crowd.jpg" width = "700" hight = "500"/> <br>
 
