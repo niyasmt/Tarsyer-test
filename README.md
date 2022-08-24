@@ -88,7 +88,8 @@ Add a picture that include 9 people<br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/crowd.jpg" width = "700" hight = "500"/> <br>
 Output<br>
 
-CSRNET  : 27 people<br>
+CSRNET  : 27 people<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/csrnet%20small.png" width = "700" hight = "500"/> <br>
 SSD  ( ssd_mobilenet_v3 )   : 7 people<br><br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/ssd%20small.png" width = "700" hight = "500"/> <br>
 YOLOv5  : 16 People<br><br>
@@ -98,13 +99,145 @@ Add a picture that include 50 people<br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/50.jpg" width = "700" hight = "500"/> <br>
 Output<br>
 
-CSRNET  : 47 people<br>
+CSRNET  : 47 people<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/csrnet%20crowd.png" width = "700" hight = "500"/> <br>
 SSD  ( ssd_mobilenet_v3 )   : 11 people<br><br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/ssd%20crowd.png" width = "700" hight = "500"/> <br>
 YOLOv5  : 31 People<br><br>
-<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/Yolo%20crowd.jpg" width = "700" hight = "500"/> <br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/Yolo%20crowd.jpg" width = "700" hight = "500"/> <br><br>
 
-
+Try defferent 20 images <br><br>
+<table align = "center">
+<tr>
+<th> Actual count </th>
+<th colspan = 2> predicted count </th>
+</tr>
+<tr>
+<th> </th>
+<th> SSD </th>
+<th> YOLOv5 </th>
+<th> CSRNET </th>
+</tr>
+<tr>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1</td>
+<td> 5 </td>
+</tr>
+<tr>
+<td> 10 </td>
+<td> 9 </td>
+<td> 13 </td>
+<td> 30 </td>
+</tr>
+<tr>
+<td> 10 </td>
+<td> 11 </td>
+<td> 13 </td>
+<td> 29 </td>
+</tr>
+<tr>
+<td> 100 </td>
+<td> 42 </td>
+<td> 11 </td>
+<td> 29 </td>
+</tr>
+<tr>
+<td> 2 </td>
+<td> 2 </td>
+<td> 2 </td>
+<td> 6 </td>
+</tr>
+<tr>
+<td> 20 </td>
+<td> 1 </td>
+<td> 4 </td>
+<td> 32 </td>
+</tr>
+<tr>
+<td> 3 </td>
+<td> 1 </td>
+<td> 3 </td>
+<td> 10 </td>
+</tr>
+<tr>
+<td> 4 </td>
+<td> 4 </td>
+<td> 5 </td>
+<td> 20 </td>
+</tr>
+<tr>
+<td> 5 </td>
+<td> 7 </td>
+<td> 6 </td>
+<td> 24 </td>
+</tr>
+<tr>
+<td> 5 </td>
+<td> 5 </td>
+<td> 5 </td>
+<td> 23 </td>
+</tr>
+<tr>
+<td> 50 </td>
+<td> 12 </td>
+<td> 29 </td>
+<td> 47 </td>
+</tr>
+<tr>
+<td> 6 </td>
+<td> 6 </td>
+<td> 7 </td>
+<td> 28 </td>
+</tr>
+<tr>
+<td> 8 </td>
+<td> 8 </td>
+<td> 9 </td>
+<td> 27 </td>
+</tr>
+<tr>
+<td> 9 </td>
+<td> 13 </td>
+<td> 15 </td>
+<td> 30 </td>
+</tr>
+<tr>
+<td> 9 </td>
+<td> 7 </td>
+<td> 16 </td>
+<td> 32 </td>
+</tr>
+<tr>
+<td> crowd </td>
+<td> 0 </td>
+<td> 0 </td>
+<td> 99 </td>
+</tr>
+<tr>
+<td> crowd </td>
+<td> 6 </td>
+<td> 11 </td>
+<td> 53 </td>
+</tr>
+<tr>
+<td> crowd </td>
+<td> 1 </td>
+<td> 19 </td>
+<td> 42 </td>
+</tr>
+<tr>
+<td> crowd </td>
+<td> 4 </td>
+<td> 28 </td>
+<td> 84 </td>
+</tr>
+<tr>
+<td> crowd </td>
+<td> 1 </td>
+<td> 16 </td>
+<td> 75 </td>
+</tr>
 # Conclusion
 More congested images CRNET is work very good <br>
 Small Crowd images SSD is work very good <br>
