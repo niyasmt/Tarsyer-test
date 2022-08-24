@@ -18,7 +18,7 @@ Object Detection and Tracking etc
 
 # Hand Landmark Model
 
-<img src = "https://github.com/niyasmt/Tarsyer/blob/main/Image/Hand.png" width = "700" hight = "500"/>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/Hand.png" width = "700" hight = "500"/>
 
 # MediaPipe Holistic
 Mediapipe Holistic is one of the pipelines which contains optimized face, hands, and pose components which allows for holistic tracking, thus enabling the model to simultaneously detect hand and body poses along with face landmarks. one of the main usages of MediaPipe holistic is to detect face and hands and extract key points to pass on to a computer vision model.
@@ -89,16 +89,20 @@ Add a picture that include 9 people<br>
 Output<br>
 
 CSRNET  : 27 people<br>
-SSD     : 7 people<br>
-YOLOv5  : 16 People<br>
+SSD     : 7 people<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/download%20(1).png" width = "700" hight = "500"/> <br>
+YOLOv5  : 16 People<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/yolo%20small.jpg" width = "700" hight = "500"/> <br>
 
 Add a picture that include 50 people<br>
 <img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/50.jpg" width = "700" hight = "500"/> <br>
 Output<br>
 
 CSRNET  : 47 people<br>
-SSD     : 11 people<br>
-YOLOv5  : 31 People<br>
+SSD     : 11 people<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/download.png" width = "700" hight = "500"/> <br>
+YOLOv5  : 31 People<br><br>
+<img src = "https://github.com/niyasmt/Tarsyer-test/blob/master/Images/Yolo%20crowd.jpg" width = "700" hight = "500"/> <br>
 
 
 # Conclusion
